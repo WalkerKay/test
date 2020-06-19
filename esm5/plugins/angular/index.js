@@ -1,0 +1,23 @@
+import EditorPropsPlugin from './editor-props';
+import DOMPlugin from '../dom';
+import CommandsPlugin from './commands';
+import QueriesPlugin from './queries';
+/**
+ * A plugin that adds the React-specific rendering logic to the editor.
+ *
+ * @param {Object} options
+ * @return {Object}
+ */
+function AngularPlugin(options) {
+    if (options === void 0) { options = {}; }
+    var editorPropsPlugin = EditorPropsPlugin(options);
+    var domPlugin = DOMPlugin(options);
+    return [editorPropsPlugin, domPlugin, CommandsPlugin, QueriesPlugin];
+}
+/**
+ * Export.
+ *
+ * @type {Function}
+ */
+export default AngularPlugin;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9Abmd4LXNsYXRlL2NvcmUvIiwic291cmNlcyI6WyJwbHVnaW5zL2FuZ3VsYXIvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxpQkFBaUIsTUFBTSxnQkFBZ0IsQ0FBQztBQUMvQyxPQUFPLFNBQVMsTUFBTSxRQUFRLENBQUM7QUFDL0IsT0FBTyxjQUFjLE1BQU0sWUFBWSxDQUFDO0FBQ3hDLE9BQU8sYUFBYSxNQUFNLFdBQVcsQ0FBQztBQUV0Qzs7Ozs7R0FLRztBQUVILFNBQVMsYUFBYSxDQUFDLE9BQVk7SUFBWix3QkFBQSxFQUFBLFlBQVk7SUFDL0IsSUFBTSxpQkFBaUIsR0FBRyxpQkFBaUIsQ0FBQyxPQUFPLENBQUMsQ0FBQztJQUNyRCxJQUFNLFNBQVMsR0FBRyxTQUFTLENBQUMsT0FBTyxDQUFDLENBQUM7SUFDckMsT0FBTyxDQUFDLGlCQUFpQixFQUFFLFNBQVMsRUFBRSxjQUFjLEVBQUUsYUFBYSxDQUFDLENBQUM7QUFDekUsQ0FBQztBQUVEOzs7O0dBSUc7QUFFSCxlQUFlLGFBQWEsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBFZGl0b3JQcm9wc1BsdWdpbiBmcm9tICcuL2VkaXRvci1wcm9wcyc7XG5pbXBvcnQgRE9NUGx1Z2luIGZyb20gJy4uL2RvbSc7XG5pbXBvcnQgQ29tbWFuZHNQbHVnaW4gZnJvbSAnLi9jb21tYW5kcyc7XG5pbXBvcnQgUXVlcmllc1BsdWdpbiBmcm9tICcuL3F1ZXJpZXMnO1xuXG4vKipcbiAqIEEgcGx1Z2luIHRoYXQgYWRkcyB0aGUgUmVhY3Qtc3BlY2lmaWMgcmVuZGVyaW5nIGxvZ2ljIHRvIHRoZSBlZGl0b3IuXG4gKlxuICogQHBhcmFtIHtPYmplY3R9IG9wdGlvbnNcbiAqIEByZXR1cm4ge09iamVjdH1cbiAqL1xuXG5mdW5jdGlvbiBBbmd1bGFyUGx1Z2luKG9wdGlvbnMgPSB7fSkge1xuICAgIGNvbnN0IGVkaXRvclByb3BzUGx1Z2luID0gRWRpdG9yUHJvcHNQbHVnaW4ob3B0aW9ucyk7XG4gICAgY29uc3QgZG9tUGx1Z2luID0gRE9NUGx1Z2luKG9wdGlvbnMpO1xuICAgIHJldHVybiBbZWRpdG9yUHJvcHNQbHVnaW4sIGRvbVBsdWdpbiwgQ29tbWFuZHNQbHVnaW4sIFF1ZXJpZXNQbHVnaW5dO1xufVxuXG4vKipcbiAqIEV4cG9ydC5cbiAqXG4gKiBAdHlwZSB7RnVuY3Rpb259XG4gKi9cblxuZXhwb3J0IGRlZmF1bHQgQW5ndWxhclBsdWdpbjtcbiJdfQ==

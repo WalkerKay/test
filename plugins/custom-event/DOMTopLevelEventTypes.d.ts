@@ -1,0 +1,12 @@
+export declare const TOP_BLUR = "blur";
+export declare const TOP_COMPOSITION_END = "compositionend";
+export declare const TOP_COMPOSITION_START = "compositionstart";
+export declare const TOP_COMPOSITION_UPDATE = "compositionupdate";
+export declare const TOP_KEY_DOWN = "keydown";
+export declare const TOP_KEY_PRESS = "keypress";
+export declare const TOP_KEY_UP = "keyup";
+export declare const TOP_MOUSE_DOWN = "mousedown";
+export declare const TOP_MOUSE_MOVE = "mousemove";
+export declare const TOP_MOUSE_OUT = "mouseout";
+export declare const TOP_TEXT_INPUT = "textInput";
+export declare const TOP_PASTE = "paste";

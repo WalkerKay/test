@@ -1,0 +1,8 @@
+/*
+ * Public API Surface of ngx-slate-angular
+ */
+export * from './components';
+export * from './editor.module';
+export * from './core';
+export * from './utils';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BuZ3gtc2xhdGUvY29yZS8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLGNBQWMsQ0FBQztBQUM3QixjQUFjLGlCQUFpQixDQUFDO0FBQ2hDLGNBQWMsUUFBUSxDQUFDO0FBQ3ZCLGNBQWMsU0FBUyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZ3gtc2xhdGUtYW5ndWxhclxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vY29tcG9uZW50cyc7XG5leHBvcnQgKiBmcm9tICcuL2VkaXRvci5tb2R1bGUnO1xuZXhwb3J0ICogZnJvbSAnLi9jb3JlJztcbmV4cG9ydCAqIGZyb20gJy4vdXRpbHMnO1xuIl19

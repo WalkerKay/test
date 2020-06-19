@@ -1,0 +1,8 @@
+@import '../components/editor/editor.component.scss';
+
+.non-editable-area {
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    user-select: none;
+}

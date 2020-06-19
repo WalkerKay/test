@@ -1,0 +1,8 @@
+export default {
+    FRAGMENT: 'application/x-slate-fragment',
+    HTML: 'text/html',
+    NODE: 'application/x-slate-node',
+    RICH: 'text/rtf',
+    TEXT: 'text/plain'
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHJhbnNmZXItdHlwZXMuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9Abmd4LXNsYXRlL2NvcmUvIiwic291cmNlcyI6WyJjb25zdGFudHMvdHJhbnNmZXItdHlwZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZUFBZTtJQUNYLFFBQVEsRUFBRSw4QkFBOEI7SUFDeEMsSUFBSSxFQUFFLFdBQVc7SUFDakIsSUFBSSxFQUFFLDBCQUEwQjtJQUNoQyxJQUFJLEVBQUUsVUFBVTtJQUNoQixJQUFJLEVBQUUsWUFBWTtDQUNyQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICAgIEZSQUdNRU5UOiAnYXBwbGljYXRpb24veC1zbGF0ZS1mcmFnbWVudCcsXG4gICAgSFRNTDogJ3RleHQvaHRtbCcsXG4gICAgTk9ERTogJ2FwcGxpY2F0aW9uL3gtc2xhdGUtbm9kZScsXG4gICAgUklDSDogJ3RleHQvcnRmJyxcbiAgICBURVhUOiAndGV4dC9wbGFpbidcbn07XG4iXX0=

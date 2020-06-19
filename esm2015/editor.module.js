@@ -1,0 +1,24 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { PortalModule } from '@angular/cdk/portal';
+import { SlaEditorComponent } from './components/editor/editor.component';
+import { SlaContentComponent } from './components/content/content.component';
+import { SlaNodeComponent } from './components/node/node.component';
+import { SlaTextComponent } from './components/text/text.component';
+import { SlaVoidComponent } from './components/void/void.component';
+import { Rendering } from './plugins/angular/rendering';
+export class SlaEditorModule {
+    constructor() { }
+}
+SlaEditorModule.decorators = [
+    { type: NgModule, args: [{
+                declarations: [SlaEditorComponent, SlaContentComponent, SlaNodeComponent, SlaVoidComponent, SlaTextComponent],
+                imports: [BrowserModule, PortalModule],
+                exports: [SlaEditorComponent, SlaContentComponent, SlaNodeComponent, SlaTextComponent, SlaVoidComponent],
+                entryComponents: [SlaTextComponent, SlaVoidComponent],
+                providers: [Rendering]
+            },] }
+];
+/** @nocollapse */
+SlaEditorModule.ctorParameters = () => [];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWRpdG9yLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BuZ3gtc2xhdGUvY29yZS8iLCJzb3VyY2VzIjpbImVkaXRvci5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBc0QsTUFBTSxlQUFlLENBQUM7QUFDN0YsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLDJCQUEyQixDQUFDO0FBQzFELE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxxQkFBcUIsQ0FBQztBQUNuRCxPQUFPLEVBQUUsa0JBQWtCLEVBQUUsTUFBTSxzQ0FBc0MsQ0FBQztBQUMxRSxPQUFPLEVBQUUsbUJBQW1CLEVBQUUsTUFBTSx3Q0FBd0MsQ0FBQztBQUM3RSxPQUFPLEVBQUUsZ0JBQWdCLEVBQUUsTUFBTSxrQ0FBa0MsQ0FBQztBQUNwRSxPQUFPLEVBQUUsZ0JBQWdCLEVBQUUsTUFBTSxrQ0FBa0MsQ0FBQztBQUNwRSxPQUFPLEVBQUUsZ0JBQWdCLEVBQUUsTUFBTSxrQ0FBa0MsQ0FBQztBQUNwRSxPQUFPLEVBQUUsU0FBUyxFQUFFLE1BQU0sNkJBQTZCLENBQUM7QUFTeEQsTUFBTSxPQUFPLGVBQWU7SUFDeEIsZ0JBQWUsQ0FBQzs7O1lBUm5CLFFBQVEsU0FBQztnQkFDTixZQUFZLEVBQUUsQ0FBQyxrQkFBa0IsRUFBRSxtQkFBbUIsRUFBRSxnQkFBZ0IsRUFBRSxnQkFBZ0IsRUFBRSxnQkFBZ0IsQ0FBQztnQkFDN0csT0FBTyxFQUFFLENBQUMsYUFBYSxFQUFFLFlBQVksQ0FBQztnQkFDdEMsT0FBTyxFQUFFLENBQUMsa0JBQWtCLEVBQUUsbUJBQW1CLEVBQUUsZ0JBQWdCLEVBQUUsZ0JBQWdCLEVBQUUsZ0JBQWdCLENBQUM7Z0JBQ3hHLGVBQWUsRUFBRSxDQUFDLGdCQUFnQixFQUFFLGdCQUFnQixDQUFDO2dCQUNyRCxTQUFTLEVBQUUsQ0FBQyxTQUFTLENBQUM7YUFDekIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSwgQXBwbGljYXRpb25SZWYsIENvbXBvbmVudEZhY3RvcnlSZXNvbHZlciwgSW5qZWN0b3IgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IEJyb3dzZXJNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9wbGF0Zm9ybS1icm93c2VyJztcbmltcG9ydCB7IFBvcnRhbE1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2Nkay9wb3J0YWwnO1xuaW1wb3J0IHsgU2xhRWRpdG9yQ29tcG9uZW50IH0gZnJvbSAnLi9jb21wb25lbnRzL2VkaXRvci9lZGl0b3IuY29tcG9uZW50JztcbmltcG9ydCB7IFNsYUNvbnRlbnRDb21wb25lbnQgfSBmcm9tICcuL2NvbXBvbmVudHMvY29udGVudC9jb250ZW50LmNvbXBvbmVudCc7XG5pbXBvcnQgeyBTbGFOb2RlQ29tcG9uZW50IH0gZnJvbSAnLi9jb21wb25lbnRzL25vZGUvbm9kZS5jb21wb25lbnQnO1xuaW1wb3J0IHsgU2xhVGV4dENvbXBvbmVudCB9IGZyb20gJy4vY29tcG9uZW50cy90ZXh0L3RleHQuY29tcG9uZW50JztcbmltcG9ydCB7IFNsYVZvaWRDb21wb25lbnQgfSBmcm9tICcuL2NvbXBvbmVudHMvdm9pZC92b2lkLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBSZW5kZXJpbmcgfSBmcm9tICcuL3BsdWdpbnMvYW5ndWxhci9yZW5kZXJpbmcnO1xuXG5ATmdNb2R1bGUoe1xuICAgIGRlY2xhcmF0aW9uczogW1NsYUVkaXRvckNvbXBvbmVudCwgU2xhQ29udGVudENvbXBvbmVudCwgU2xhTm9kZUNvbXBvbmVudCwgU2xhVm9pZENvbXBvbmVudCwgU2xhVGV4dENvbXBvbmVudF0sXG4gICAgaW1wb3J0czogW0Jyb3dzZXJNb2R1bGUsIFBvcnRhbE1vZHVsZV0sXG4gICAgZXhwb3J0czogW1NsYUVkaXRvckNvbXBvbmVudCwgU2xhQ29udGVudENvbXBvbmVudCwgU2xhTm9kZUNvbXBvbmVudCwgU2xhVGV4dENvbXBvbmVudCwgU2xhVm9pZENvbXBvbmVudF0sXG4gICAgZW50cnlDb21wb25lbnRzOiBbU2xhVGV4dENvbXBvbmVudCwgU2xhVm9pZENvbXBvbmVudF0sXG4gICAgcHJvdmlkZXJzOiBbUmVuZGVyaW5nXVxufSlcbmV4cG9ydCBjbGFzcyBTbGFFZGl0b3JNb2R1bGUge1xuICAgIGNvbnN0cnVjdG9yKCkge31cbn1cbiJdfQ==

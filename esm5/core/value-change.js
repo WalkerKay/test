@@ -1,0 +1,7 @@
+var ValueChange = /** @class */ (function () {
+    function ValueChange() {
+    }
+    return ValueChange;
+}());
+export { ValueChange };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidmFsdWUtY2hhbmdlLmpzIiwic291cmNlUm9vdCI6Im5nOi8vQG5neC1zbGF0ZS9jb3JlLyIsInNvdXJjZXMiOlsiY29yZS92YWx1ZS1jaGFuZ2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0E7SUFBQTtJQUdBLENBQUM7SUFBRCxrQkFBQztBQUFELENBQUMsQUFIRCxJQUdDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgT3BlcmF0aW9uLCBWYWx1ZSB9IGZyb20gJ3NsYXRlJztcbmltcG9ydCB7IExpc3QgfSBmcm9tICdpbW11dGFibGUnO1xuXG5leHBvcnQgY2xhc3MgVmFsdWVDaGFuZ2Uge1xuICAgIG9wZXJhdGlvbnM6IExpc3Q8T3BlcmF0aW9uPjtcbiAgICB2YWx1ZTogVmFsdWU7XG59XG4iXX0=

@@ -1,0 +1,6 @@
+export class BeforeInputEvent {
+    constructor() {
+        this.data = null;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmVmb3JlLWlucHV0LWV2ZW50LmpzIiwic291cmNlUm9vdCI6Im5nOi8vQG5neC1zbGF0ZS9jb3JlLyIsInNvdXJjZXMiOlsicGx1Z2lucy9jdXN0b20tZXZlbnQvYmVmb3JlLWlucHV0LWV2ZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE1BQU0sT0FBTyxnQkFBZ0I7SUFBN0I7UUFDSSxTQUFJLEdBQUcsSUFBSSxDQUFDO0lBRWhCLENBQUM7Q0FBQSIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBCZWZvcmVJbnB1dEV2ZW50IHtcbiAgICBkYXRhID0gbnVsbDtcbiAgICBuYXRpdmVFdmVudDogYW55O1xufVxuIl19
